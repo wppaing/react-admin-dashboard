@@ -63,6 +63,7 @@ export default function SideBar() {
           color: "#ffffff",
           backgroundColor: "background",
           width: 250,
+          flexShrink: 0,
         }}
       >
         <Box sx={{ padding: "2rem" }}>

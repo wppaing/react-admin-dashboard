@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Albums from "../albums";
 import Artists from "../artists";
 
 export default function DashBoard() {
@@ -6,7 +7,7 @@ export default function DashBoard() {
     <Routes>
       <Route path="/" element={<h1>Dashboard</h1>} />
       <Route path="/artists" element={<Artists />} />
-      <Route path="/about" element={<h1>About</h1>} />
+      <Route path="/albums" element={<Albums />} />
     </Routes>
   );
 }

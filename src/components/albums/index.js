@@ -1,11 +1,11 @@
 import { Container } from "@mui/material";
+import Head from "./head";
 import Result from "./result";
-import Header from "./header";
 
-export default function Artists() {
+export default function Album() {
   return (
     <Container>
-      <Header />
+      <Head />
       <Result />
     </Container>
   );
